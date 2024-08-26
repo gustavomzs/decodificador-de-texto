@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img class="logoAlura" src="./imagens/logo alura.png" alt="logotipo alura">
+        </header>
+    <main> 
+        <section>
+    <textarea class="text-area" cols="41" rows="4" placeholder= "digite seu texto" ></textarea>
+        <div class="informacao">
+        <h6>ATENÇÃO:Apenas letras minúsculas e sem acento.</h6>
+    </div>
+
+    <div class="botoes">
+        <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+        <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button> 
+    </div>
+    </textarea>
+        </section>
+        
+        <section>
+            <textarea id="inputMensagem" class="mensagem" cols="20" rows="10"> </textarea>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="redes">
+            <p>Minhas redes: </p>
+        
+        <a href="https://github.com/gustavomzs" title="gustavomzs | GitHub" target="_blank">            
+            <img src="./imagens/logo-github.png" alt="Logo do GitHub em formato circular."
+            width="45" height="45" id="github">
+            GitHub
+        </a>
+         <a href="https://www.linkedin.com/in/gustavomzs/" title="Gustavo Mendonça de Souza | LinkedIn" target="_blank">
+            <img src="./imagens/logo-linkedin.png" alt="Logo do LinkedIn em formato circular"
+            width="45" height="45" id="linkedin">
+            LinkedIn
+        </a>
+        <a href="https://www.instagram.com/gustavomzs/" title="Gustavo Souza (@gustavomzs) | Instagram" target="_blank">
+            <img src="./imagens/logo-instagram.png" alt="Logo do Instagram"
+            width="45" height="45" id="instagram">
+            Instagram
+        </a>
+        </div>
+        
+        <div class="credito">
+            <p>&#169; Desenvolvido por Gustavo Souza</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>
